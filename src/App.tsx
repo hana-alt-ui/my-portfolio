@@ -6,7 +6,7 @@ import About from "./pages/About";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Layout>
         <Routes>
           <Route path="/" element={<Gallery />} />
